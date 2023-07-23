@@ -8,9 +8,9 @@ In this series, we’ll build a searchable Next.js Image Gallery with the Next.j
 
 
 ## Lesson Help
-If you get stuck on any lesson in the series, navigate to the course branch for your current lesson and view or download the code for more help.
+If you get stuck on any lesson in the series, (1) navigate to the course branch for your current lesson and (2) view or (3) download the code for more help.
 
-![Preview of downloading code in github](./github.jpeg)
+![Preview of downloading code in github](./github.png?raw=true)
 
 ## Prerequisites
 In this series, I’ll assume you know the fundamentals of Next.js, TypeScript, and Tailwind CSS. If you need help, see the Net Ninja’s introductory series on each of those topics.

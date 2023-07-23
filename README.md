@@ -15,7 +15,8 @@ If you get stuck on any lesson in the series, navigate to the course branch for 
 ## Prerequisites
 In this series, I’ll assume you know the fundamentals of Next.js, TypeScript, and Tailwind CSS. If you need help, see the Net Ninja’s introductory series on each of those topics.
 
-### 💻 You need:
+### 💻 You will need:
+- Node.js (npm / npx)
 - Next.js
 - Pexels API Key
 
@@ -45,13 +46,13 @@ npm run build
 ```
 
 ### 📚 References
-🔗 [Next.js Official Site](https://nextjs.org/)
-🔗 [Pexels API](https://www.pexels.com/api/)
-🔗 [TailwindCSS Official Site](https://tailwindcss.com/)
-🔗 [TypeScript Official Site](https://www.typescriptlang.org/)
-🔗 [Zod Official Site](https://zod.dev/)
-🔗 [Plaiceholder](https://plaiceholder.co/docs)
-🔗 [Envalid](https://www.npmjs.com/package/envalid)
+- 🔗 [Next.js Official Site](https://nextjs.org/)
+- 🔗 [Pexels API](https://www.pexels.com/api/)
+- 🔗 [TailwindCSS Official Site](https://tailwindcss.com/)
+- 🔗 [TypeScript Official Site](https://www.typescriptlang.org/)
+- 🔗 [Zod Official Site](https://zod.dev/)
+- 🔗 [Plaiceholder](https://plaiceholder.co/docs)
+- 🔗 [Envalid](https://www.npmjs.com/package/envalid)
 
 ---
 
@@ -69,9 +70,9 @@ npm run build
 
 🚀 Follow Me:
 
-🔗 [Twitter](https://twitter.com/yesdavidgray)
-🔗 [LinkedIn](https://www.linkedin.com/in/davidagray/)
-🔗 [Blog](https://yesdavidgray.com)
+- 🔗 [Twitter](https://twitter.com/yesdavidgray)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/davidagray/)
+- 🔗 [Blog](https://yesdavidgray.com)
 
 ---
 

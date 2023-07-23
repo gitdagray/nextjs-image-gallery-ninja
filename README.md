@@ -1,34 +1,80 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Image Gallery
 
-## Getting Started
+## With Tailwind CSS, TypeScript & Zod
 
-First, run the development server:
+In this series, we’ll build a searchable Next.js Image Gallery with the Next.js App Directory, Tailwind CSS, TypeScript and Zod.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+![Next.js Image Gallery](/readme-banner.PNG?raw=true)
+
+
+## Lesson Help
+If you get stuck on any lesson in the series, navigate to the course branch for your current lesson and view or download the code for more help.
+
+![Preview of downloading code in github](./github.jpeg)
+
+## Prerequisites
+In this series, I’ll assume you know the fundamentals of Next.js, TypeScript, and Tailwind CSS. If you need help, see the Net Ninja’s introductory series on each of those topics.
+
+### 💻 You need:
+- Next.js
+- Pexels API Key
+
+### 🚀 Create .env.local file
+Create a .env.local file to store your API key. Example below:
+
+```
+PEXELS_API_KEY=your-API-key-value
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project Setup
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```sh
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Compile and Hot-Reload for Development
 
-## Learn More
+```sh
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+### Compile and Minify for Production
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```sh
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### 📚 References
+🔗 [Next.js Official Site](https://nextjs.org/)
+🔗 [Pexels API](https://www.pexels.com/api/)
+🔗 [TailwindCSS Official Site](https://tailwindcss.com/)
+🔗 [TypeScript Official Site](https://www.typescriptlang.org/)
+🔗 [Zod Official Site](https://zod.dev/)
+🔗 [Plaiceholder](https://plaiceholder.co/docs)
+🔗 [Envalid](https://www.npmjs.com/package/envalid)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Author Links
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+👋 Hello, I'm Dave Gray.
+
+👉 [My Courses](https://courses.davegray.codes/)
+
+✅ [Check out my YouTube Channel with hundreds of tutorials](https://www.youtube.com/DaveGrayTeachesCode).
+
+🚩 [Subscribe to my channel](https://bit.ly/3nGHmNn)
+
+☕ [Buy Me A Coffee](https://buymeacoffee.com/DaveGray)
+
+🚀 Follow Me:
+
+🔗 [Twitter](https://twitter.com/yesdavidgray)
+🔗 [LinkedIn](https://www.linkedin.com/in/davidagray/)
+🔗 [Blog](https://yesdavidgray.com)
+
+---
+
+### 🎓 Academic Honesty
+
+**DO NOT COPY FOR AN ASSIGNMENT** - Avoid plagiarism and adhere to the spirit of this [Academic Honesty Policy](https://www.freecodecamp.org/news/academic-honesty-policy/).

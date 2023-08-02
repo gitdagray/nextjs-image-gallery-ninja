@@ -21,7 +21,7 @@ export default function Footer({ topic, page, prevPage, nextPage }: Props) {
     const nextPageArea = nextPage
         ? (
             <Link href={`/results/${topic}/${nextPage}`} className={!prevPage ? "mx-auto" : ""} >
-                {!prevPage ? "more" : ""} &gt;&gt;&gt;
+                {!prevPage ? "more" : null} &gt;&gt;&gt;
             </Link>
         )
         : null
@@ -30,7 +30,7 @@ export default function Footer({ topic, page, prevPage, nextPage }: Props) {
         ? (
             <>
                 <Link href={`/results/${topic}/${nextPage}`} className={!nextPage ? "mx-auto" : ""} >
-                    &lt;&lt;&lt; {!nextPage ? "back" : ""}
+                    &lt;&lt;&lt; {!nextPage ? "back" : null}
                 </Link>
 
                 {pageNums.map(num => (

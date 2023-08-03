@@ -21,8 +21,8 @@ export default function ImgContainer({ photo }: Props) {
                     <Image
                         src={photo.src.large}
                         alt={photo.alt}
-                        width={250}
-                        height={galleryHeight}
+                        width={photo.width}
+                        height={photo.height}
                         sizes="250px"
                         placeholder="blur"
                         blurDataURL={photo.blurredDataUrl}
